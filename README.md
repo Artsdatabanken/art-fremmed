@@ -1,6 +1,6 @@
 # Fremmede arter
 
-Lastes fra [Fremmedarslista 2018](https://www.artsdatabanken.no/fremmedartslista2018) i JSON-format.
+Lastes fra [Fremmedarslista 2018](https://www.artsdatabanken.no/fremmedartslista2018).
 
 ## Dokumentasjon
 
