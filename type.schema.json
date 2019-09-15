@@ -710,7 +710,7 @@
           "type": "string"
         },
         "url": {
-          "type": "null"
+          "type": "string"
         },
         "tool": {
           "type": "object",
@@ -724,6 +724,9 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   }
 }
