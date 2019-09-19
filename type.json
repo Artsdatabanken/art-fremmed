@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "kode": "FA",
+      "nivå": "Risikovurdering",
+      "tittel": {
+        "nb": "Fremmed art"
+      }
+    },
+    {
+      "kode": "FA-SE",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "Severe impact",
+        "nb": "Svært høy risiko"
+      }
+    },
+    {
+      "kode": "FA-HI",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "High impact",
+        "nb": "Høy risiko"
+      }
+    },
+    {
+      "ingress": {
+        "nb": "Fremmede arter med potensielt høy risiko (PH) har per i dag en lav faktisk påvirkning på norsk natur, men inngår i en egen risikokategori fordi påvirkninga kan øke gjennom uforutsette endringer. Disse endringene kan være evolusjonære eller økologiske."
+      },
+      "kode": "FA-PH",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "Potentially high impact",
+        "nb": "Potensielt høy risiko"
+      }
+    },
+    {
+      "kode": "FA-LO",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "Low impact",
+        "nb": "Lav risiko"
+      }
+    },
+    {
+      "kode": "FA-NK",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "No known impact",
+        "nb": "Ingen kjent risiko"
+      }
+    }
+  ],
+  "meta": {
+    "tittel": "Type",
+    "produsertUtc": "2019-09-19T03:17:24.417Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.json",
+    "tool": {
+      "name": "fremmede-arter-lastejobb"
+    },
+    "elementer": 6
+  },
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.schema.json#"
+}
