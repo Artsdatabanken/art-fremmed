@@ -60,6 +60,9 @@
           "properties": {
             "name": {
               "type": "string"
+            },
+            "url": {
+              "type": "null"
             }
           }
         },
@@ -71,5 +74,15 @@
     "$schema": {
       "type": "string"
     }
+  },
+  "meta": {
+    "tittel": "Type.schema",
+    "produsertUtc": "2019-09-25T10:24:16.394Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.schema.json",
+    "tool": {
+      "name": "fremmede-arter-lastejobb"
+    },
+    "elementer": 3
   }
 }

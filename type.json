@@ -8,30 +8,11 @@
       }
     },
     {
-      "kode": "FA-SE",
-      "nivå": "Risikokategori",
-      "tittel": {
-        "en": "Severe impact",
-        "nb": "Svært høy risiko"
-      }
-    },
-    {
       "kode": "FA-HI",
       "nivå": "Risikokategori",
       "tittel": {
         "en": "High impact",
         "nb": "Høy risiko"
-      }
-    },
-    {
-      "ingress": {
-        "nb": "Fremmede arter med potensielt høy risiko (PH) har per i dag en lav faktisk påvirkning på norsk natur, men inngår i en egen risikokategori fordi påvirkninga kan øke gjennom uforutsette endringer. Disse endringene kan være evolusjonære eller økologiske."
-      },
-      "kode": "FA-PH",
-      "nivå": "Risikokategori",
-      "tittel": {
-        "en": "Potentially high impact",
-        "nb": "Potensielt høy risiko"
       }
     },
     {
@@ -49,11 +30,30 @@
         "en": "No known impact",
         "nb": "Ingen kjent risiko"
       }
+    },
+    {
+      "ingress": {
+        "nb": "Fremmede arter med potensielt høy risiko (PH) har per i dag en lav faktisk påvirkning på norsk natur, men inngår i en egen risikokategori fordi påvirkninga kan øke gjennom uforutsette endringer. Disse endringene kan være evolusjonære eller økologiske."
+      },
+      "kode": "FA-PH",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "Potentially high impact",
+        "nb": "Potensielt høy risiko"
+      }
+    },
+    {
+      "kode": "FA-SE",
+      "nivå": "Risikokategori",
+      "tittel": {
+        "en": "Severe impact",
+        "nb": "Svært høy risiko"
+      }
     }
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-09-19T03:17:24.417Z",
+    "produsertUtc": "2019-09-25T10:24:16.390Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.json",
     "tool": {
