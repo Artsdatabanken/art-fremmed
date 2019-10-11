@@ -33,6 +33,32 @@
               }
             }
           },
+          "relasjon": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "erSubset": {
+                  "type": "boolean"
+                },
+                "kant": {
+                  "type": "string"
+                },
+                "kantRetur": {
+                  "type": "string"
+                },
+                "kode": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "erSubset",
+                "kant",
+                "kantRetur",
+                "kode"
+              ]
+            }
+          },
           "reproduksjon": {
             "type": "object",
             "properties": {
@@ -700,6 +726,7 @@
           "ekspertgruppe id",
           "kode",
           "norsk bestand",
+          "relasjon",
           "reproduksjon",
           "risikovurdering",
           "takson",
@@ -745,7 +772,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-09T07:24:55.945Z",
+    "produsertUtc": "2019-10-11T14:33:10.352Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/art.schema.json",
     "tool": {
