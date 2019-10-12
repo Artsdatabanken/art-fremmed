@@ -32,7 +32,7 @@
       }
     },
     {
-      "ingress": {
+      "beskrivelse": {
         "nb": "Fremmede arter med potensielt høy risiko (PH) har per i dag en lav faktisk påvirkning på norsk natur, men inngår i en egen risikokategori fordi påvirkninga kan øke gjennom uforutsette endringer. Disse endringene kan være evolusjonære eller økologiske."
       },
       "kode": "FA-PH",
@@ -53,7 +53,7 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-10-11T16:14:23.296Z",
+    "produsertUtc": "2019-10-12T14:02:51.410Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.json",
     "tool": {
