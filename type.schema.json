@@ -7,6 +7,17 @@
       "items": {
         "type": "object",
         "properties": {
+          "beskrivelse": {
+            "type": "object",
+            "properties": {
+              "nob": {
+                "type": "string"
+              },
+              "nb": {
+                "type": "string"
+              }
+            }
+          },
           "kode": {
             "type": "string"
           },
@@ -23,20 +34,13 @@
                 "type": "string"
               }
             }
-          },
-          "beskrivelse": {
-            "type": "object",
-            "properties": {
-              "nb": {
-                "type": "string"
-              }
-            }
           }
         },
         "required": [
           "kode",
           "nivå",
-          "tittel"
+          "tittel",
+          "beskrivelse"
         ]
       }
     },
@@ -77,7 +81,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-12T14:02:51.415Z",
+    "produsertUtc": "2019-10-20T19:02:43.920Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.schema.json",
     "tool": {
