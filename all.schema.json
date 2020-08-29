@@ -1,0 +1,343 @@
+{
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "data": {
+        "properties": {
+          "a": {
+            "properties": {
+              "marint": {
+                "type": "number"
+              },
+              "polar": {
+                "type": "number"
+              },
+              "subtropic": {
+                "type": "number"
+              },
+              "temperate": {
+                "type": "number"
+              },
+              "tropic": {
+                "type": "number"
+              },
+              "unknown": {
+                "type": "number"
+              }
+            },
+            "type": "object"
+          },
+          "area": {
+            "properties": {
+              "Africa": {
+                "type": "number"
+              },
+              "Asia": {
+                "type": "number"
+              },
+              "AtlantNordOst": {
+                "type": "number"
+              },
+              "AtlantNordVest": {
+                "type": "number"
+              },
+              "AtlantSor": {
+                "type": "number"
+              },
+              "AtlantTropic": {
+                "type": "number"
+              },
+              "BlackSea": {
+                "type": "number"
+              },
+              "CaspianSea": {
+                "type": "number"
+              },
+              "Europe": {
+                "type": "number"
+              },
+              "IndianOSouth": {
+                "type": "number"
+              },
+              "IndianOTropic": {
+                "type": "number"
+              },
+              "Middel": {
+                "type": "number"
+              },
+              "Nordis": {
+                "type": "number"
+              },
+              "NorthAndCentralAmerica": {
+                "type": "number"
+              },
+              "Oceania": {
+                "type": "number"
+              },
+              "Osters": {
+                "type": "number"
+              },
+              "Sorish": {
+                "type": "number"
+              },
+              "SouthAmerica": {
+                "type": "number"
+              },
+              "StilleNord": {
+                "type": "number"
+              },
+              "StilleSor": {
+                "type": "number"
+              },
+              "StilleTropic": {
+                "type": "number"
+              }
+            },
+            "type": "object"
+          },
+          "b": {
+            "properties": {
+              "boreal": {
+                "type": "number"
+              },
+              "caperegion": {
+                "type": "number"
+              },
+              "dry": {
+                "type": "number"
+              },
+              "highlands": {
+                "type": "number"
+              },
+              "humid": {
+                "type": "number"
+              },
+              "mediterranean": {
+                "type": "number"
+              },
+              "nemoral": {
+                "type": "number"
+              },
+              "undefined": {
+                "type": "number"
+              },
+              "unspecified": {
+                "type": "number"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "items": {
+        "items": {},
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {
+                          "properties": {
+                            "elementer": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "produsertUtc": {
+                              "type": "string"
+                            },
+                            "source": {
+                              "items": {},
+                              "type": "array"
+                            },
+                            "tittel": {
+                              "type": "string"
+                            },
+                            "tool": {
+                              "properties": {
+                                "commit": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "url": {
+                              "type": "null"
+                            },
+                            "utgiver": {
+                              "type": "string"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "properties": {
+                          "commit": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "url": {
+                        "type": "null"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "type": "object"
+          },
+          "url": {
+            "type": "null"
+          },
+          "utgiver": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    },
+    "type": "object"
+  },
+  "meta": {
+    "tittel": "All.schema",
+    "produsertUtc": "2020-08-29T17:21:04.091Z",
+    "utgiver": "Artsdatabanken",
+    "url": null,
+    "tool": {
+      "name": "fremmede-arter-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+    },
+    "elementer": 3,
+    "source": [
+      {
+        "name": "30_original",
+        "tittel": "30 original",
+        "produsertUtc": "2020-08-29T17:21:03.282Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "fremmede-arter-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+        },
+        "elementer": 3142,
+        "source": [
+          {
+            "name": "20_unflatten",
+            "tittel": "20 unflatten",
+            "produsertUtc": "2020-08-29T17:21:02.503Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "fremmede-arter-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+            },
+            "elementer": 3142,
+            "source": [
+              {
+                "name": "10_json",
+                "tittel": "10 json",
+                "produsertUtc": "2020-08-29T17:21:01.786Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "fremmede-arter-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+                },
+                "elementer": 3142,
+                "source": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

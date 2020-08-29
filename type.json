@@ -56,13 +56,18 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-10-20T19:02:43.917Z",
+    "produsertUtc": "2020-08-29T17:21:04.214Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.json",
+    "url": null,
     "tool": {
-      "name": "fremmede-arter-lastejobb"
+      "name": "fremmede-arter-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
     },
-    "elementer": 6
-  },
-  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/fremmede-arter/master/type.schema.json#"
+    "elementer": 6,
+    "source": [
+      {
+        "name": "art-fremmed-ubehandlet/type"
+      }
+    ]
+  }
 }

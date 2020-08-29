@@ -1,0 +1,101 @@
+{
+  "items": [],
+  "data": {
+    "a": {
+      "subtropic": 4616,
+      "temperate": 6742,
+      "tropic": 404,
+      "unknown": 332,
+      "marint": 264,
+      "polar": 103
+    },
+    "b": {
+      "humid": 322,
+      "mediterranean": 2448,
+      "unspecified": 941,
+      "dry": 1801,
+      "nemoral": 4066,
+      "undefined": 1103,
+      "caperegion": 230,
+      "highlands": 290,
+      "boreal": 1260
+    },
+    "area": {
+      "NorthAndCentralAmerica": 4259,
+      "Africa": 2098,
+      "Asia": 6131,
+      "Oceania": 1618,
+      "SouthAmerica": 1452,
+      "Europe": 7555,
+      "AtlantNordVest": 107,
+      "AtlantNordOst": 134,
+      "Osters": 36,
+      "BlackSea": 47,
+      "CaspianSea": 21,
+      "StilleNord": 129,
+      "Middel": 82,
+      "Nordis": 6,
+      "AtlantSor": 41,
+      "Sorish": 6,
+      "AtlantTropic": 29,
+      "StilleSor": 42,
+      "StilleTropic": 18,
+      "IndianOTropic": 12,
+      "IndianOSouth": 11
+    }
+  },
+  "meta": {
+    "tittel": "All",
+    "produsertUtc": "2020-08-29T17:21:04.088Z",
+    "utgiver": "Artsdatabanken",
+    "url": null,
+    "tool": {
+      "name": "fremmede-arter-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+    },
+    "elementer": 0,
+    "source": [
+      {
+        "name": "30_original",
+        "tittel": "30 original",
+        "produsertUtc": "2020-08-29T17:21:03.282Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "fremmede-arter-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+        },
+        "elementer": 3142,
+        "source": [
+          {
+            "name": "20_unflatten",
+            "tittel": "20 unflatten",
+            "produsertUtc": "2020-08-29T17:21:02.503Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "fremmede-arter-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+            },
+            "elementer": 3142,
+            "source": [
+              {
+                "name": "10_json",
+                "tittel": "10 json",
+                "produsertUtc": "2020-08-29T17:21:01.786Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "fremmede-arter-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-fremmed-lastejobb/master/1dc974f16784d6568bda01bdb162a4f779e96102"
+                },
+                "elementer": 3142,
+                "source": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
